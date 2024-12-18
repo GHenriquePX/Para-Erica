@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenagem para Minha Namorada</title>
+    <style>
+        /* Resetando algumas propriedades de estilo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #ff1500;
+            color: white;
+            padding: 20px 0;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        /* Carrossel de imagens */
+        .carrossel {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 15px;
+            max-height: 40%;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .slide {
+            min-width: 100%;
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .slide img {
+            width: 100%;
+            height: auto;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        /* Botões de navegação */
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .prev {
+            left: 10px;
+            top: 550px;
+        }
+
+        .next {
+            right: 10px;
+            top: 550px;
+        }
+
+        /* Indicadores de slide */
+        .dots {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .dot {
+          
+            margin: 0 5px;
+            width: 15px;
+            height: 15px;
+            background-color: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+        
+        /* Homenagem */
+        .homenagem {
+            font-size: 1.25rem;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ff1500;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+
+        /* Estilo para o botão de iniciar o carrossel */
+        .btn {
+            background-color: #ff1500;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #a70808;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Para Minha Princesa</h1>
+</header>
+<br>
+<!-- Carrossel de fotos -->
+<div class="carrossel">
+    <div class="slides">
+        <div class="slide">
+            <img src="foto1.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto2.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto3.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto4.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto5.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto6.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto7.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto8.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto9.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto10.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto11.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto12.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto13.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto14.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto15.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto16.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto17.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto18.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto19.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto20.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto21.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto22.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto23.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto24.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto25.jpeg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="foto26.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto27.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto28.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto29.jpeg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="foto30.jpeg" alt="Imagem 3">
+        </div>
+        <div class="slide">
+            <img src="foto31.jpeg" alt="Imagem 3">
+        </div>
+    </div>
+
+    <!-- Botões de navegação -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <br>
+
+<!-- Homenagem -->
+
+<audio>
+    <source src="https://www.youtube.com/watch?v=5AhJeXKd-2c" type="audio/mpeg">
+</audio>
+
+<div class="homenagem">
+    <p>
+        Oiiii gatinha, viu que formato diferente kkkkk Poise, eu quis dar uma inovada, afinal 19 anos não se faz todos os dias, por isso separei um tempinho para preparar isso tudo pra você, sei que o combinado era não dar presente em aniversário, mas considere isso como uma lembrancinha, uma singela homenagem que faço para você com todo meu amor. <br>
+        Bem, eu acho q já está claro que te amo e te admiro muito, se não está, eu te amo e te admiro muuuiiitooooo viu kkkk Mas durante esse texto quero que leia com atenção, e reflita durante todo o decorrer do mesmo, pq vamos refletir juntos todo esse ano que se foi, e os detalhes que as vezes deixamos passar kkkk. <br>
+        Sei que por muitas vezes te passo raiva, seja com minha barbixa com pelos de perereca ou quando esqueço de te contar algo (não é de propósito), hj me dei conta que ja são dois aniversários ao seu lado, tipo, em dois anos uma criança ja está andando e falalando... Uma relação que nasceu do nada kkkkk hj quase dois anos de relacionamento, e ainda sem acreditar como tudo aconteceu tão rápido. <br>
+        Quero agradecer por tudo, e principalmente por todos os momentos em que ficou ao meu lado, hj depois de algum tempo aprendemos a nos relacionar de verdade. Mas falando mais especificamente de você, A COISA MAIS IMPORTANTE EVER, nesse ano que se passsou pude acompanhar muuuuitas conquistas que talvez você não tenha nem se dado conta delas, começando na área acadêmica kkkkk foram tantos medos, tantas apreeensões, angústias, mas felizmente deu tudo certo kkkk, e eu ja sabia desse resultado, afinal, sua capacidade é imensa. Na área profissional, o tão sonhado primeiro emprego chegooou kkkkkkkk, começou a enxergar o dinheiro de outra forma, olha que milagre, está até economizando kkkk brincadeiras à parte, oque mais me deixou orgulhoso esse ano, foi te ver encarar seu medo, e se aventurar no mundo das vendas. <br>
+        Me lembro de um dia, fatídico dia em que eu disse que de uma vez por todas ia tirar a ideia de vender prata da minha cabeça, se vc me falasse realmente que não queria, e foi dito e feito kkkk você virou para mim e disse "Eu não sei vender, tenho medo de não dar certo", teeeeempos depois kkkkk com um serviço engatilhado o que surge novamente? Sim!! As prataaas kkkkkk e em uma conversa informal dentro de um ônibus, colocamos as coisas no lugar, e após muitas conversas, decidimos começar de vez, e dissemos um para o outro, "vai dar certo", e olha nós aí kkkk vendendo. Claro ainda é só o começo, mas sabe oq pude tirar disso? entendi o significado de um relacionamento, nas horas de incertezas, dúvidas, insegurança, e aí que a outra parte nos completa, e aí que tudo tem sentindo, um passando força e confiança para o outro, para que assim, possamos crescer juntos. <br>
+        Quero que reflita, reflita beeeem todos esses momentos, relembre todos eles com calma, pq eu confesso  no começo de tudo, é difícil encontrar finalidade nisso tudo, no começo, tudo são incertezas, as pessoas só colocam obstáculos, mas eu acredito, e tenho fé que SE DEUS QUISER, a gente vai chegar lá, JUNTOS, e é por isso que finalizo aqui pedindo a DEUS que mande muuuuiiiitos e muiiitooos anos de vida e saúde para você amor, afinal a vida já não tem o mesmo sentido sem você.
+        <br>
+        <br>
+        EU TE AMO MINHA PRINCESA <br>
+        EU TE AMO ÉRICA LOPES SOBRINHO
+        <br>
+        <br>
+        ASS: SEU AMOR 
+    </p>
+</div>
+ <br>
+<!-- musica -->
+ 
+<audio preload="auto" autoplay loop>
+    <source src="musica.MP3" type="audio/mpeg">
+</audio>
+
+<br>
+<br>
+<br>
+
+<script>
+    // Função para o carrossel de imagens
+    let index = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = slides.length;
+
+    // Função para mostrar o slide correto
+    function showSlide() {
+        if (index >= totalSlides) index = 0;
+        if (index < 0) index = totalSlides - 1;
+
+        // Mover as imagens
+        document.querySelector('.slides').style.transform = `translateX(-${index * 100}%)`;
+
+        // Atualizar os indicadores de slide
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    // Avançar para o próximo slide
+    function nextSlide() {
+        index++;
+        showSlide();
+    }
+
+    // Voltar para o slide anterior
+    function prevSlide() {
+        index--;
+        showSlide();
+    }
+
+    // Adicionar eventos aos botões de navegação
+    document.querySelector('.next').addEventListener('click', nextSlide);
+    document.querySelector('.prev').addEventListener('click', prevSlide);
+
+    // Adicionar eventos aos indicadores de slide
+    dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+            index = i;
+            showSlide();
+        });
+    });
+
+    // Passar automaticamente para o próximo slide a cada 3 segundos
+    setInterval(nextSlide, 3000);
+
+    // Mostrar o slide inicial
+    showSlide();
+
+    // Função para o contador de tempo
+    function updateContador() {
+        const dataInicio = new Date("2023-05-11");
+        const dataAtual = new Date();
+        const tempoDecorrido = new Date(dataAtual - dataInicio);
+        const dias = Math.floor(tempoDecorrido / (1000 * 60 * 60 * 24));
+        const meses = Math.floor(dias / 30);
+        const anos = Math.floor(meses / 12);
+
+        document.getElementById("contador").textContent = `Estamos juntos há ${anos} anos, ${meses % 12} meses e ${dias % 30} dias.`;
+    }
+
+    // Atualizar o contador de tempo a cada segundo
+    setInterval(updateContador, 1000);
+    updateContador();
+</script>
+
+</body>
+</html>
